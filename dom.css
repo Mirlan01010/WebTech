@@ -34,13 +34,14 @@ footer {
     text-align: center; /* Выравниваем текст по центру */
 }
   
-  main {
+main {
     background-image: url('background1.jpeg'); /* Путь к изображению фона */
     background-size: cover; /* Масштабировать изображение, чтобы оно охватывало всю область main */
     background-repeat: no-repeat; /* Не повторять фоновое изображение */
     background-attachment: fixed; /* Фиксировать фон при прокрутке страницы */
     color: #fff; /* Цвет текста на фоне */
-    padding:250px; /* Отступы для содержимого между header и footer */
+    height: 100vh;
+    padding: 0 0 300px 0;; /* Отступы для содержимого между header и footer */
     padding-top: 10px;
 }
 
